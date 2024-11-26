@@ -20,8 +20,6 @@ public class Topic {
     @OneToMany(mappedBy = "topic", cascade = CascadeType.ALL)
     private List<Subscriber> subscribers;
 
-    // Getters and Setters
-
     public Long getId() {
         return id;
     }

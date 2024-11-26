@@ -13,12 +13,10 @@ public class TopicService {
 
     // Method to create a topic
     public Topic createTopic(Topic topic) {
-        // You can perform any additional logic (e.g., validation) here
         return topicRepository.save(topic);
     }
 
     public Topic findByTopic(String topic) {
-        // You can perform any additional logic (e.g., validation) here
         return topicRepository.findByNameCustom(topic);
     }
 }

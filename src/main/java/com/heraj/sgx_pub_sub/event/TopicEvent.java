@@ -2,8 +2,6 @@ package com.heraj.sgx_pub_sub.event;
 
 import org.springframework.context.ApplicationEvent;
 
-import org.springframework.context.ApplicationEvent;
-
 public class TopicEvent extends ApplicationEvent {
 
     private final String topic;

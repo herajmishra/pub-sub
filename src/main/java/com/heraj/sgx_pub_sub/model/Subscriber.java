@@ -13,9 +13,7 @@ public class Subscriber {
 
     @ManyToOne
     @JoinColumn(name = "topic_id")
-    private Topic topic; // Many subscribers can belong to one topic
-
-    // Getters and Setters
+    private Topic topic;
 
     public Long getId() {
         return id;
